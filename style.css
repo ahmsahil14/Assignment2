@@ -1,0 +1,412 @@
+/* maximum font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 2nd font */
+
+@import , url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+
+.arizonia-regular {
+    font-family: 'Miama';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Miama');
+}
+
+
+  
+
+
+ 
+
+
+
+/* shared styles */
+.flexing {
+  display: flex;
+}
+
+/* colors */
+.orange {
+  color: rgb(230, 83, 60);
+
+  .eash {
+    color: rgba(255, 255, 255, 0.5);
+    
+  }
+}
+
+/* button */
+.primary-btn {
+  background-color: rgb(255, 144, 14);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1.15rem;
+  border: none;
+  border-radius: 10px;
+}
+
+
+/* header section */
+.first-page {
+  background-image: radial-gradient(circle, rgba(35, 35, 37, 1) 16%, rgba(1, 6, 7, 1) 81%, rgba(29, 29, 37, 1) 84%);
+  /* opacity: 2; */
+  background-size: cover;
+  margin-bottom: 0px;
+
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 180px;
+
+
+}
+
+.brand-name {
+  font-weight: 800;
+  font-size: 2.3rem;
+  color: rgb(230, 83, 60);
+}
+
+.list-container {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 60px;
+  height: 40px;
+  width: 425px;
+
+
+}
+
+.nav-lists {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
+
+}
+
+.nav-items {
+  text-decoration: none;
+  margin-right: 60px;
+
+
+
+
+}
+
+.nav-links {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+
+}
+
+.diff {
+  background-color: rgb(230, 83, 60);
+  border-radius: 100px;
+  /* width: 125px; */
+  text-align: center;
+}
+
+/* banner site */
+
+.banner-content {
+ 
+  gap: 300px;
+ margin: 0px 170px;
+
+
+}
+
+.bannertx-sec {
+  width: 520px;
+  height: 600px;
+  line-height: 1;
+
+  
+ 
+  
+ 
+}
+
+.bannermain-tx {
+  font-weight: 900;
+  font-size: 4rem;
+  color: white;
+}
+
+.secondary-tx {
+  font-weight: 400;
+  font-size: 1.2;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+.banner-button{
+  width: 400px;
+}
+
+.primary2-btn {
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1.15rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+.banner-img{
+
+  /* position: relative; */
+  width: 600px;
+  /* margin-left: 70px; */
+  position: relative;
+}
+
+.banner-img img {
+  width: 350px;
+  height: 580px;
+  position: absolute;
+  /* margin-top: 50px; */
+ 
+}
+.box1{
+  
+  background-color: rgba(48, 48, 48, 0.54);;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  text-align: center;
+  width: 130px;
+  height: 80px;
+  position: absolute;
+ margin-top: 400px;
+
+ 
+}
+.box1-h{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.box1-t{
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.box2{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  text-align: center;
+  width: 130px;
+  height: 80px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+
+}
+main>section{
+  background-color: black;
+}
+
+/* Habit Section */
+.habit-container{
+  background-color: black;
+  margin-bottom: 40px;
+  height: auto;
+}
+.habit-text{
+  text-align: center;
+  line-height: 0.9;
+  /* margin-top: 10px; */
+}
+.habit-cart{
+  line-height: 1;
+}
+
+.habitcart-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  /* gap: 20px; */
+  max-width: 900px ;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+
+}
+.main-habittx{
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+}
+
+
+.second-habittx{
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+
+
+.habit-tx{
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: white;
+ 
+}
+.habit-txtwo{
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+.habit-img{
+  border: 2px solid;
+  border-radius: 90px;
+}
+
+/* run extraaa */
+.runsec{
+  height: 500px;
+}
+.runimg img{
+  width: 350px;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 60px;
+}
+.runimg{
+  /* border: 2px solid white; */
+  border-radius: 90px;
+  position: relative;
+}
+.run-content{
+  width: 450px;
+  line-height: 1;
+  height: auto;
+}
+.runextra-container{
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
+ height: 400px;
+ width: 1000px;
+ margin: auto;
+ background-color: rgb(34, 34, 34);
+ border: 1px solid;
+ border-radius: 60px;
+ margin-bottom: 50px;
+}
+.runtx{
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  width: 300px;
+
+}
+.runsmalltx{
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+
+/* BMI section */
+
+.chart-container td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+
+}
+.chart-container table{
+  border-collapse: collapse;
+}
+.h-text{
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+ 
+  
+}
+.r-text{
+  font-weight: ;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.table-title{
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: white;
+}
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 576px)
+{
+  .navbar{
+    flex-direction: column;
+  }
+  .list-container {
+    width: 395px;
+  }
+  .nav-items{
+    margin-right: 50px;
+  }
+  .banner-content{
+    flex-direction: column;
+   margin: auto;
+   gap: 0px;
+  }
+  .bannertx-sec{
+    height: 700px;
+  margin: 0px 20px;
+  width: 400px;
+  height: 500px;
+  }
+  .bannermain-tx{
+    font-weight: 500;
+    font-size: 3.5rem;
+  
+  }
+  .banner-img img{
+    width: 80%;
+    position: relative;
+    margin: 0px;
+  
+  }
+  .banner-img{
+    margin:auto;
+    width: 525px;
+    height: auto;
+  }
+  .boxes{
+    width: 570px;
+    height: 20px;
+  }
+  .box1{
+    margin-top: 20px;
+    position: relative;
+   margin-top: 0px;
+  }
+  .box2{
+    position: relative;
+ 
+    margin-top: 0px;
+  margin-left: 60px;
+  margin-bottom: 70px;
+  }
+}
