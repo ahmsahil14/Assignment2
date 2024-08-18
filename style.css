@@ -324,7 +324,20 @@ main>section{
 
 }
 
+
+
+
 /* BMI section */
+.bmi{
+  background: rgb(34, 34, 34);
+}
+.totalBMI{
+  width:1320px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  
+}
 
 .chart-container td{
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -342,7 +355,7 @@ main>section{
   
 }
 .r-text{
-  font-weight: ;
+  font-weight:400 ;
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -350,8 +363,50 @@ main>section{
   font-weight: 900;
   font-size: 1.8rem;
   color: white;
+  margin-bottom: 52px;
 }
+/* .chart-container{
+  width: 300px; */
+  height: 250px;
 
+.bmicontainer{
+   width: 600px;
+  height: 386px;
+  /* line-height: 1; */
+
+}
+.bmi-contents{
+  margin: auto;
+ width: 500px;
+ line-height: 1;
+
+}
+.form-boxs{
+  width: 282px;
+  height: 40px;
+  padding: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid;
+  border-radius: 8px;
+  margin: 5px 5px;
+  color: rgba(255, 255, 255, 0.6);
+  
+
+}
+.runtxtwo{
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  width: auto;}
+.bmibutton{
+  margin-top: 10px;
+}
+.chart-container{
+  width: 600px;
+  margin-left: 150px;
+  
+  
+}
 
 /* Responsiveness */
 
