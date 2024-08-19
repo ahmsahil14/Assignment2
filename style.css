@@ -233,7 +233,7 @@ main>section{
 .habit-container{
   background-color: black;
   margin-bottom: 40px;
-  height: auto;
+ 
 }
 .habit-text{
   text-align: center;
@@ -531,8 +531,12 @@ footer{
   .bannertx-sec{
     height: 700px;
   margin: 0px 20px;
-  width: 400px;
+  width: 300px;
   height: 500px;
+  }
+  .primary2-btn{
+    margin: auto;
+
   }
   .bannermain-tx{
     font-weight: 500;
@@ -547,15 +551,15 @@ footer{
   }
   .banner-img{
     margin:auto;
-    width: 525px;
+    width: 450px;
     height: auto;
   }
   .boxes{
     width: 570px;
-    height: 20px;
+    height: auto;
   }
   .box1{
-    margin-top: 20px;
+    margin-top: 2px;
     position: relative;
    margin-top: 0px;
   }
@@ -566,4 +570,63 @@ footer{
   margin-left: 60px;
   margin-bottom: 70px;
   }
+  .habitcart-container{
+    grid-template-columns: repeat(1,1fr) ;
+    height: auto;
+  }
+  .runsec{
+    height: auto;
+  }
+  .runextra-container{
+    flex-direction: column;
+    width: auto;
+    height: 600px;
+    align-items: start;
+    margin: auto;
+  }
+  .runsmalltx{
+    width: 400px;
+  }
+  .totalBMI{
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+  .bmi-contents{
+    
+  }
+  .bmi{
+    height: 900px;
+    width: auto;
+  }
+  .runtxtwo{
+    width: 400px;
+  }
+  .chart-container{
+    width: auto;
+    margin: auto;
+  }
+  .bmicontainer{
+    margin: auto;
+  }
+  .team-contant{
+    width: auto;
+  }
+  .teamimg{
+    grid-template-columns: repeat(1,1fr);
+    height: auto;
+  }
+  .teamimg-back{
+    height: auto;
+    width: auto;
+  }
+  .teamimg img{
+    margin: 10px 53px;
+
+  }
+  .footersec{
+    flex-direction: column;
+    align-items: start;
+  }
+
 }
